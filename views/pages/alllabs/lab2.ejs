@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../../partials/generic_header.ejs %>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Liubov Zelenaia</a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+           <li><a href="/">Home</a></li>
+           <li class="active"><a href="/labs">Labs</a></li>
+           <li><a href="/contact">My details</a></li>
+         </ul>
+       </div><!--/.nav-collapse -->
+     </div>
+   </nav>
+  <div class="container">
+    <div>
+      <h1>Lab2</h1>
+      <p class="lead">This second lab was easy for me. </p>
+      <p>However, making person list app responsive was a challenge. </p>
+      <h2>Assignment 1</h2>
+      <ul>
+      <li><p><strong>What is the purpose of the RWD? Why it is used? How things are done before RWD? What is the difference? </strong>Responsive Design is a design system which responds and adapts to the device. The primary reason to keep your design responsive is to increase the reach of your application to a larger number of devices.</li>
+      <li><p><strong>How css media queries can help you building responsive web sites? </strong>Media queries are used to create a responsive design, where different CSS styling is applied to different screen sizes. This lets designers build sites that are pleasant to use both on very small screens and large desktop monitors.</li>
+      <li><p><strong>Why to use em (font) based sizing for example margins? </strong>Ems are becoming increasingly popular in web documents due to scalability and it is easier to use on mobile applications. </li>
+      </ul>
+      <h2>Assignment 2</h2>
+      <p>Screenshots of the sites on different devices and screen sizes.</p><img width= "758px" height="400px" src="/img/boston_globe.png"></img><img width= "225px" height="400px" src="/img/boston_globe_mobile.png"></img><img width= "758px" height="400px" src="/img/media_queries.png"></img><img width= "225px" height="400px" src="/img/media_queries_mobile.png"></img>
+      <h2>Assignment 3</h2>
+      <p>You can find the simple responsive web page from <a href="/simple_demo">here</a>.</p>
+	  <p><strong>After you have done the basic layout, how could you prevent user zooming the site on mobile? </strong></p>
+	  After some research I found that preventing page zooming was as easy as adding a META tag to the page.
+      <h2>Assignment 4</h2>
+	  <p>Running stuff inside web server (locally)</p>
+	  <h2>Assignment 5</h2>
+	  <p>You can find the modified responsive web page from <a href="/demo">here</a>.</p>
+	  <p><strong>HTML5 specification introduces new semantic elements. One of them is a 'figure' element. Can you say why you should use it in addition to standard 'img' elements? </strong></p>
+	  The 'figure' element represents a self-contained unit of content. This means that if you were to move the element either further down a document, or to the end of the document, it would not affect the document’s meaning.
+	  <h2>Assignment 6</h2>
+	  <p>You can find the modified responsive person list from <a href="/addPerson_responsive">here</a>.</p>
+    </div>
+
+  </div>
+  <% include ../../partials/generic_body_end.ejs %>
+</body>
+</html>

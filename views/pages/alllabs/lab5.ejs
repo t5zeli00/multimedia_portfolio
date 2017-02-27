@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../../partials/generic_header.ejs %>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Liubov Zelenaia</a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav">
+           <li><a href="/">Home</a></li>
+           <li class="active"><a href="/labs">Labs</a></li>
+           <li><a href="/contact">My details</a></li>
+         </ul>
+       </div><!--/.nav-collapse -->
+     </div>
+   </nav>
+  <div class="container">
+    <div>
+      <h1>Lab5</h1>
+      <p class="lead">I had a lot of problems with connecting AJAX to my person list application. Everything else was easy.</p>
+      <p></p>
+      <h2>Assignment 1</h2>
+      <ul>
+      <li><p><strong>What you can do with the jQuery? </strong>It is possible to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications; create plug-ins on top of the JavaScript library; to create abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets. </li>
+      <li><p><strong>How it can help you as web developer? </strong>jQuery simplifies the syntax for finding, selecting, and manipulating DOM elements.</li>
+      <li><p><strong>If you think our earlier participant list app, in what kind of issues you could use jQuery? </strong>I could have used jQuery as a function to add person to the list.</li>
+      <li><p><strong>What are CDNs? What kind of benefits you get if you use them? </strong>CDN is a Content Delivery Network provided by Google and Microsoft. Many users already have downloaded jQuery from Google or Microsoft when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. </li>
+      </ul>
+      <h2>Assignment 2</h2>
+      <p>You can find the modified participant list application from <a href="/addPerson_jquery">here</a>.</p>	  
+    </div>
+
+  </div>
+  <% include ../../partials/generic_body_end.ejs %>
+</body>
+</html>
